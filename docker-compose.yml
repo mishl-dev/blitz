@@ -1,0 +1,13 @@
+services:
+  blitz:
+    build: .
+    image: blitz:latest
+    ports:
+      - "3000:3000"
+    environment:
+      - RUST_LOG=info
+    restart: unless-stopped
+
+networks:
+  blitz-backend:
+    driver: bridge
