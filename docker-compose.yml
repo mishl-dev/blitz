@@ -12,4 +12,4 @@ services:
 
 networks:
   blitz-backend:
-    driver: bridge
+    name: blitz-backend

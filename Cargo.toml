@@ -5,7 +5,7 @@ edition = "2024"
 license = "MIT"
 description = "Lightweight HTTP proxy for chatjimmy.ai with OpenAI-compatible API"
 readme = "README.md"
-repository = "https://github.com/yourusername/blitz"
+repository = "https://github.com/mishl-dev/blitz"
 
 [dependencies]
 serde = { version = "1", features = ["derive"] }
